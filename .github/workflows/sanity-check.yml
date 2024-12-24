@@ -31,6 +31,7 @@ jobs:
        - name: Install Packages
          run: |
            npm install
+           echo "Dependencies installed"
   
        - name: Lint check
          run: |
